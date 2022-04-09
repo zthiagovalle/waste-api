@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using WebApi.Bll;
 using WebApi.Models;
 
@@ -16,6 +17,7 @@ namespace WebApi.Controllers
             _logger = logger;
         }
 
+        [EnableCors]
         [HttpGet]
         public async Task<List<WasteInfo>> GetAsync()
         {
