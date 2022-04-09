@@ -4,11 +4,11 @@
     {
         public WasteInfo()
         {
-            Addres = new List<AddresInfo>();
+            Address = new List<AddresInfo>();
         }
 
         public string Name { get; set; }
 
-        public List<AddresInfo> Addres { get; set; }
+        public List<AddresInfo> Address { get; set; }
     }
 }

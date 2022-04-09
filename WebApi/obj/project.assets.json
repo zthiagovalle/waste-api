@@ -236,31 +236,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zthia\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/zthiagovalle/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\git\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "/Users/zthiagovalle/Documents/projetos/waste-api/WebApi/WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\dev\\git\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\zthia\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\git\\WebApi\\obj\\",
+      "projectPath": "/Users/zthiagovalle/Documents/projetos/waste-api/WebApi/WebApi.csproj",
+      "packagesPath": "/Users/zthiagovalle/.nuget/packages/",
+      "outputPath": "/Users/zthiagovalle/Documents/projetos/waste-api/WebApi/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\zthia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/zthiagovalle/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -306,7 +299,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }

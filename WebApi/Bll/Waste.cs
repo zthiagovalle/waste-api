@@ -32,7 +32,7 @@ namespace WebApi.Bll
                         var addressInfo = new AddresInfo { Street = addresses[i].Trim() };
                         addressInfo.Lat = coordinates[i].Split(" ")[0].Trim();
                         addressInfo.Lng = coordinates[i].Split(" ")[1].Trim();
-                        wasteInfo.Addres.Add(addressInfo);   
+                        wasteInfo.Address.Add(addressInfo);   
                     }
                     lstWasteInfo.Add(wasteInfo);
                 }
