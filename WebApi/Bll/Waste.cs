@@ -23,6 +23,7 @@ namespace WebApi.Bll
                     var blocks = row.Split(",");
 
                     wasteInfo.Name = blocks[0].Trim();
+                    wasteInfo.ImageUrl = blocks[3].Trim();
 
                     var addresses = blocks[1].Split("|");
                     var coordinates = blocks[2].Split("|");

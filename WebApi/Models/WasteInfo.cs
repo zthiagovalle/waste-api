@@ -10,5 +10,7 @@
         public string Name { get; set; }
 
         public List<AddresInfo> Address { get; set; }
+
+        public string ImageUrl { get; set; }
     }
 }
