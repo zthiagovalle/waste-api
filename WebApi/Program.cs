@@ -11,7 +11,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrins,
         policy =>
         {
-            policy.WithOrigins("http://localhost:4200", "https://recicle-municipio-zthiagovalle.vercel.app", "https://recicle-saosimao.vercel.app/home")
+            policy.WithOrigins("http://localhost:4200", "https://recicle-municipio-zthiagovalle.vercel.app", "https://recicle-saosimao.vercel.app")
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
