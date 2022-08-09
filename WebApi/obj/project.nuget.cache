@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "la/HdE95sxw8+QlLdkUn5m4bYRBJyiO6vbUUK0HTJ/JnIZ/oMj4Dm98eS0pX0zfQs7no4x3L78hGFfJrvFiKjA==",
+  "dgSpecHash": "+qTNOeTva1AHB35TxIq8AaMXItIifq3IP1UoBUECi4OtszF2//NXMDPmhFmSpPM06KvuFRcG/DlAKFKPVF10KQ==",
   "success": true,
-  "projectFilePath": "/Users/zthiagovalle/Documents/projetos/waste-api/WebApi/WebApi.csproj",
+  "projectFilePath": "/Users/zthiagovalle/dev/github/waste-api/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
     "/Users/zthiagovalle/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/zthiagovalle/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",

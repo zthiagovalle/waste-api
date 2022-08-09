@@ -241,11 +241,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zthiagovalle/Documents/projetos/waste-api/WebApi/WebApi.csproj",
+      "projectUniqueName": "/Users/zthiagovalle/dev/github/waste-api/WebApi/WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "/Users/zthiagovalle/Documents/projetos/waste-api/WebApi/WebApi.csproj",
+      "projectPath": "/Users/zthiagovalle/dev/github/waste-api/WebApi/WebApi.csproj",
       "packagesPath": "/Users/zthiagovalle/.nuget/packages/",
-      "outputPath": "/Users/zthiagovalle/Documents/projetos/waste-api/WebApi/obj/",
+      "outputPath": "/Users/zthiagovalle/dev/github/waste-api/WebApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/zthiagovalle/.nuget/NuGet/NuGet.Config"
@@ -287,7 +287,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -299,7 +300,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
