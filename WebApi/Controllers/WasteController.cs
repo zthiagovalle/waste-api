@@ -19,9 +19,14 @@ namespace WebApi.Controllers
 
         [EnableCors]
         [HttpGet]
-        public async Task<List<WasteInfo>> GetAsync()
+        public async Task<ActionResult> GetAsync()
         {
-            return await new Waste().GetWasteByGoogleSheetAsync(_endPoint);
+            var lstWaste = await new Waste().GetWasteByGoogleSheetAsync(_endPoint);
+
+            if (lstWaste.Any())
+                return Ok(lstWaste);
+
+            return NotFound();
         }
     }
 }
