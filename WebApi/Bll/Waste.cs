@@ -6,13 +6,15 @@ namespace WebApi.Bll
 {
     public class Waste : IWaste
     {
-        public async Task<List<WasteInfo>> GetWasteByGoogleSheetAsync(string endPoint)
+        private readonly string _endPoint = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6LMYyIYZzsrMhVB4_dg0fADQ-hVx5y8qOPEe7eIP8rFm4sWoLtYURivnlTqKBFJ5qbfs69HlKbeXK/pub?output=csv";
+
+        public async Task<List<WasteInfo>> GetWasteByGoogleSheetAsync()
         {
             try
             {
                 var lstWasteInfo = new List<WasteInfo>();
                 var client = new RestClient();
-                var request = new RestRequest(endPoint);
+                var request = new RestRequest(_endPoint);
                 var response = await client.GetAsync(request);
                 var rows = response.Content.Split("\n");
 
@@ -34,7 +36,7 @@ namespace WebApi.Bll
                         var addressInfo = new AddresInfo { Street = addresses[i].Trim() };
                         addressInfo.Lat = coordinates[i].Split(" ")[0].Trim();
                         addressInfo.Lng = coordinates[i].Split(" ")[1].Trim();
-                        wasteInfo.Address.Add(addressInfo);   
+                        wasteInfo.Address.Add(addressInfo);
                     }
                     lstWasteInfo.Add(wasteInfo);
                 }

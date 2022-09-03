@@ -10,7 +10,6 @@ namespace WebApi.Controllers
     {
         private readonly ILogger<WasteController> _logger;
         private readonly IWaste _waste;
-        private readonly string _endPoint = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6LMYyIYZzsrMhVB4_dg0fADQ-hVx5y8qOPEe7eIP8rFm4sWoLtYURivnlTqKBFJ5qbfs69HlKbeXK/pub?output=csv";
 
         public WasteController(ILogger<WasteController> logger, IWaste waste)
         {

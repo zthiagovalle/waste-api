@@ -4,6 +4,6 @@ namespace WebApi.IBll
 {
     public interface IWaste
     {
-        Task<List<WasteInfo>> GetWasteByGoogleSheetAsync(string endPoint);
+        Task<List<WasteInfo>> GetWasteByGoogleSheetAsync();
     }
 }
