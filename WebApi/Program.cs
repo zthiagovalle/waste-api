@@ -1,3 +1,6 @@
+using WebApi.Bll;
+using WebApi.IBll;
+
 var builder = WebApplication.CreateBuilder(args);
 var MyAllowSpecificOrins = "_myAllowSpecificOrigins";
 // Add services to the container.
@@ -16,6 +19,8 @@ builder.Services.AddCors(options =>
                 .AllowAnyMethod();
         });
 });
+
+builder.Services.AddTransient<IWaste, Waste>();
 
 var app = builder.Build();
 

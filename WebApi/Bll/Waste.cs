@@ -1,9 +1,10 @@
 ﻿using RestSharp;
+using WebApi.IBll;
 using WebApi.Models;
 
 namespace WebApi.Bll
 {
-    public class Waste
+    public class Waste : IWaste
     {
         public async Task<List<WasteInfo>> GetWasteByGoogleSheetAsync(string endPoint)
         {
