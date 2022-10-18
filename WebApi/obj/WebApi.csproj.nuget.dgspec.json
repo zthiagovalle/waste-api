@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zthiagovalle/dev/git/waste-api/WebApi/WebApi.csproj": {}
+    "/Users/zthiagovalle/dev/csharp/waste-api/WebApi/WebApi.csproj": {}
   },
   "projects": {
-    "/Users/zthiagovalle/dev/git/waste-api/WebApi/WebApi.csproj": {
+    "/Users/zthiagovalle/dev/csharp/waste-api/WebApi/WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zthiagovalle/dev/git/waste-api/WebApi/WebApi.csproj",
+        "projectUniqueName": "/Users/zthiagovalle/dev/csharp/waste-api/WebApi/WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "/Users/zthiagovalle/dev/git/waste-api/WebApi/WebApi.csproj",
+        "projectPath": "/Users/zthiagovalle/dev/csharp/waste-api/WebApi/WebApi.csproj",
         "packagesPath": "/Users/zthiagovalle/.nuget/packages/",
-        "outputPath": "/Users/zthiagovalle/dev/git/waste-api/WebApi/obj/",
+        "outputPath": "/Users/zthiagovalle/dev/csharp/waste-api/WebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zthiagovalle/.nuget/NuGet/NuGet.Config"

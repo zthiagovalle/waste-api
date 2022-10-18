@@ -21,8 +21,7 @@ namespace WebApi.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAsync()
         {
-            var lstWaste = await _waste.GetWasteByGoogleSheetAsync(_endPoint);
-
+            var lstWaste = await _waste.GetWasteByGoogleSheetAsync();
             if (lstWaste.Any())
                 return Ok(lstWaste);
 
